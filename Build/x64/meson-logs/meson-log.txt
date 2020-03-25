@@ -1,0 +1,69 @@
+Build started at 2020-03-25T15:18:46.030388
+Main binary: C:\Program Files\Meson\meson.exe
+Python system: Windows
+The Meson build system
+Version: 0.50.0
+Source dir: C:\Users\Chris\Source\c\blocker
+Build dir: C:\Users\Chris\Source\c\blocker\Build\x64
+Build type: native build
+Project name: AccessBlocker
+Project version: 0.0.1
+Native C compiler: cl (msvc 19.25.28508.3)
+Native C++ compiler: cl (msvc 19.25.28508.3)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Running compile:
+Working directory:  C:\Users\Chris\AppData\Local\Temp\tmp70c_itu8
+Command line:  cl C:\Users\Chris\AppData\Local\Temp\tmp70c_itu8\testfile.cpp /nologo /showIncludes /EP /Od /EHsc /std:c++17 /permissive- 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("filesystem")
+          #error "Header 'filesystem' could not be found"
+         #endif
+        #else
+         #include <filesystem>
+        #endif
+Compiler stdout:
+ 
+
+        
+         
+
+
+        
+
+
+
+Compiler stderr:
+ testfile.cpp
+
+Has header "filesystem" : YES
+Build targets in project: 3
+Option cpp_std is: c++17 [default: vc++latest]
+Found ninja-1.8.2 at 'C:\Program Files\Meson\ninja.EXE'
+Running compile:
+Working directory:  C:\Users\Chris\AppData\Local\Temp\tmpydgj4s93
+Command line:  cl C:\Users\Chris\AppData\Local\Temp\tmpydgj4s93\testfile.cpp /nologo /showIncludes /c /FoC:\Users\Chris\AppData\Local\Temp\tmpydgj4s93\output.obj /Od --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ testfile.cpp
+
+Compiler stderr:
+ cl : Command line warning D9002 : ignoring unknown option '--print-search-dirs'
+
+Running compile:
+Working directory:  C:\Users\Chris\AppData\Local\Temp\tmp7xurpbrn
+Command line:  cl C:\Users\Chris\AppData\Local\Temp\tmp7xurpbrn\testfile.c /nologo /showIncludes /c /FoC:\Users\Chris\AppData\Local\Temp\tmp7xurpbrn\output.obj /Od --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ testfile.c
+
+Compiler stderr:
+ cl : Command line warning D9002 : ignoring unknown option '--print-search-dirs'
+
